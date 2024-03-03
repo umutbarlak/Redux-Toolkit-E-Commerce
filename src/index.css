@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.paginate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: end;
+  margin: 20px 0;
+}
+
+.paginate li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  border-radius: 6px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.paginate li:first-child {
+  background-color: rgb(191, 206, 203);
+}
+
+.paginate li:last-child {
+  background-color: rgb(191, 206, 203);
+}
