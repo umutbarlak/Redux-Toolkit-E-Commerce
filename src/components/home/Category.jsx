@@ -15,7 +15,7 @@ const Category = ({ setCategory }) => {
     <div className="w-2/6 mt-2 lg:w-1/6 h-fit bg-gray-100 p-2">
       <div className="p-2 font-bold text-2xl tracking-widest">KATEGORİ</div>
       <div
-        onClick={() => setCategory()}
+        onClick={() => setCategory("")}
         className="text-lg cursor-pointer hover:bg-gray-200 capitalize my-2 text-nowrap p-2"
       >
         Bütün Ürünler
